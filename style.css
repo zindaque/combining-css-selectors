@@ -1,0 +1,20 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+/*parent child*/
+.box>.done{
+    color: firebrick;
+}
+/*ancestor*/
+.box li{
+    color: blue;
+}
+/*chain*/
+li.done{
+    color: seagreen;
+}
+/*ancestor+chain*/
+ul p.done{
+    font-size: 0.5rem;
+}
